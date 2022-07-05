@@ -18,7 +18,6 @@ pkgs <- c("tidyverse",
           "countrycode",
           "broom",
           "scales",
-          "gapminder",
           "gt")
 
 install.packages(pkgs)
