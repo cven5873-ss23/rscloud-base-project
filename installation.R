@@ -7,11 +7,13 @@
 
 # Code --------------------------------------------------------------------
 
-pkgs <- c("tidyverse", 
+pkgs <- c("tidyverse",
+          "gapminder",
           "DT", 
           "knitr", 
           "rmarkdown", 
-          "usethis", 
+          "usethis",
+          "devtools",
           "markdown",
           "quarto",
           "here",
