@@ -21,6 +21,11 @@ pkgs <- c("tidyverse",
           "countrycode",
           "broom",
           "scales",
-          "gt") 
+          "gt",
+          "ggthemes") 
+
 
 install.packages(pkgs)
+
+devtools::install_github("WASHNote/jmpwashdata")
+devtools::install_github("Global-Health-Engineering/durbanplasticwaste")
